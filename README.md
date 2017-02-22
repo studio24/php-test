@@ -3,14 +3,14 @@
 The following are a set of two developer tests that we ask prospective staff to complete before face-to-face interviews. 
 They are intended to assess skills in PHP.
 
-Please ensure you send us all files required to run the scripts. We will test your submission using PHP 5.6
+Please ensure you send us all files required to run the scripts. We will test your submission using PHP 7.1
 
 You are free to send multiple files to answer the questions but all files created to answer this test must be created 
 within the time allocated.
 
 You are not allowed to use any external libraries or code snippets (i.e. no jQuery, web frameworks or any pre-written 
 libraries you may have). The only exception to this is you may use a testing framework for question 2 if you wish 
-(e.g. PHPUnit).
+(e.g. PHPUnit), but there is no requirement to do so.
 
 Please answer as many of the questions as you can within 3 hours.
 
@@ -26,8 +26,8 @@ You should include functionality on the page that allows the user to sort the da
 
 And filter the data by:
 
-* Only show books released in last 3 months
-* Only show books released in last 6 months
+* Only show books released in 2016
+* Only show books released in 2015
 * Show all books
 
 By default display all books, sorted by Price (cheapest first).
@@ -56,6 +56,6 @@ that contains code to run these tests. You may use a testing framework (e.g. PHP
 * I can only set a Telephone number on a Manager
 * I can test whether an employee is a Manager
 
-The format of your answer can either be a PHP script run on the CLI, or a PHP script (to be accessed via a web browser) 
+The format of your answer can either be a PHP script run on the CLI or a PHP script (to be accessed via a web browser) 
 that outputs a valid HTML document.
 ￼￼
